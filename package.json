@@ -1,0 +1,30 @@
+{
+  "name": "computing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "sandra",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "dateformat": "^3.0.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-partials": "^0.3.0",
+    "jquery": "^3.3.1",
+    "mongoose": "^5.0.9",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.1",
+    "tether": "^1.4.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
