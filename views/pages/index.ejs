@@ -2,7 +2,7 @@
 
 <div class="">
     <div class="col s12">
-        <a href=" /user/add" class="btn btn-success btn-lg">Add a new user</a>
+        <a href="/user/add" class="btn btn-success btn-lg">Add a new user</a>
     </div>
 </div>
 <br>
@@ -14,15 +14,15 @@
                 <thead>
                     <tr>
                         
-                        <th style="width:10%">UserID</th>
-                        <th style="width:49%">FirstName</th>
-                        <th style="width:49%">LastName</th>
-                        <th style="width:49%">Password</th>
-                        <th style="width:49%">emailaddress</th>
-                        <th style="width:49%">Location</th>
-                        <th style="width:49%">Date_Of_Birth</th>
-                        <th style="width:49%">Username</th>
-                        <th style="width:49%">Phone_Number</th>
+                        <th style="width:5%">UserID</th>
+                        <th style="width:5%">FirstName</th>
+                        <th style="width:5%">LastName</th>
+                        <th style="width:5%">Password</th>
+                        <th style="width:5%">emailaddress</th>
+                        <th style="width:5%">Location</th>
+                        <th style="width:5%">Date_Of_Birth</th>
+                        <th style="width:5%">Username</th>
+                        <th style="width:5%">Phone_Number</th>
                         <th solspan="2" style="width:20%;text-align:center">Actions
                     </th>
                 </tr>
@@ -32,14 +32,14 @@
                         <tr>
                             
                             <td style="width:5%"><%= item.UserID %></td>
-                            <td style="width:49%"><%= item.FirstName %></td>
-                            <td style="width:49%"><%= item.LastName %></td>
-                            <td style="width:49%"><%= item.Password %></td>
-                            <td style="width:49%"><%= item.emailaddress %></td>
-                            <td style="width:49%"><%= item.Location %></td>
-                            <td style="width:49%"><%= item.Date_Of_Birth %></td>
-                            <td style="width:49%"><%= item.Username %></td>
-                            <td style="width:49%"><%= item.Phone_Number %></td>
+                            <td style="width:5%"><%= item.FirstName %></td>
+                            <td style="width:5%"><%= item.LastName %></td>
+                            <td style="width:5%"><%= item.Password %></td>
+                            <td style="width:5%"><%= item.emailaddress %></td>
+                            <td style="width:5%"><%= item.Location %></td>
+                            <td style="width:5%"><%= item.Date_Of_Birth %></td>
+                            <td style="width:5%"><%= item.Username %></td>
+                            <td style="width:5%"><%= item.Phone_Number %></td>
                             <td solspan="2" style="width:20%;text-align:center">
                                 <a href=" /user/edit/<%= item.UserID %>" class="btn btn-success">Edit</a>
                                 <a href=" /user/delete/<%= item.UserID %>" class="btn btn-success">Delete</a>

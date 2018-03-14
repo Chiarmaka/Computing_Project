@@ -74,6 +74,17 @@ app.get('/', function (req, res) {
     });
 });
 
+app.get('/user/add', function (req, res) {
+    
+         res.render('pages/add-user.ejs', {
+             siteTitle : siteTitle,
+             pageTitle : "Add new staff",
+             items : ''
+         });
+            
+ 
+     });
+
 //app.get('/user', (req, res) =>{
   //  let sql = 'SELECT * from user';
     //let query = db.query(sql, (err, results) => {
