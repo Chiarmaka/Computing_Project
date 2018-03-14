@@ -1,5 +1,43 @@
 <% include ../partials/header %>
 
+<div class="">
+    <div class="col s12">
+        <a href=" /user/add" class="btn btn-success btn-lg">Add a new user</a>
+    </div>
+</div>
+<br>
 
+<div class="=">
+    <div class="col s12">
+        <% if (items.length > 0) { %>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th style="width:1%;text-align:center">ID</th>
+                        <th style="width:10%">UserID</th>
+                        <th style="width:49%">First Name</th>
+                        <th style="width:49%">Last Name</th>
+                        <th style="width:49%">Password</th>
+                        <th style="width:49%">email address</th>
+                        <th style="width:49%">Location</th>
+                        <th style="width:49%">Date Of Birth</th>
+                        <th style="width:49%">Username</th>
+                        <th style="width:49%">Phone number</th>
+                        <th solspan="2" style="width:20%;text-align:center">Action
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                    <% items.forEach(function(item,index){ %>
+                        <tr>
+                            <td style="width:1%;text-align:center"><%= index + 1 %></td>
+                            <td style=""
+                        </tr>
+                    })
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
 
 <% include ../partials/footer %>

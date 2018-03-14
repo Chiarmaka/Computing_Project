@@ -25,10 +25,10 @@ const app = express();
 const PORT = 3360;
 
 //mongoose connection
-mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/CRMdb',{
-    useMongoClient: true
-});
+//mongoose.Promise = global.Promise;
+//mongoose.connect('mongodb://localhost/CRMdb',{
+    //useMongoClient: true
+//});
 
 //body parser 
 app.use(bodyParser.urlencoded({extended: true}));
